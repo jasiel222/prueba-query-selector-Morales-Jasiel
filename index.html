@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil Profesional - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="barra-superior">
+      <div class="logo">Mi perfil</div>
+      <nav class="menu">
+        <a href="#perfil">Sobre mí</a>
+        <a href="#metricas">Métricas</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+      </nav>
+    </header>
+
+    <main class="contenedor">
+      <section id="perfil" class="tarjeta-perfil">
+        <div class="foto-perfil">FOTO</div>
+
+        <div class="datos-perfil">
+          <h1>Jasiel Morales Bautista</h1>
+          <p class="carrera">
+            Ingeniería en Computación Inteligente, 5.° Semestre
+          </p>
+          <p class="bio">
+            Me gusta armar cosas desde cero y ver cómo funcionan por dentro.
+            Últimamente ando metido en redes y en programar en C, y en mi tiempo
+            libre arreglo computadoras viejas. Quiero trabajar algún día en
+            sistemas embebidos.
+          </p>
+        </div>
+
+        <div class="acciones-perfil">
+          <button class="btn-principal">Descargar CV</button>
+          <button class="btn-secundario">Contactar</button>
+        </div>
+      </section>
+
+      <section id="metricas" class="barra-estadisticas">
+        <div class="stat">
+          <span class="stat-numero">9</span>
+          <span class="stat-label">Proyectos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-numero">3</span>
+          <span class="stat-label">Repositorios</span>
+        </div>
+        <div class="stat">
+          <span class="stat-numero">2</span>
+          <span class="stat-label">Certificados</span>
+        </div>
+        <div class="stat">
+          <span class="stat-numero">5.°</span>
+          <span class="stat-label">Semestre</span>
+        </div>
+      </section>
+
+      <section id="habilidades" class="tarjeta-seccion">
+        <h2>Habilidades Técnicas</h2>
+        <p>Herramientas y áreas de dominio:</p>
+
+        <div class="contenedor-chips">
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">CSS Flexbox</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">C / C++</span>
+          <span class="chip">Python</span>
+          <span class="chip">Arduino</span>
+          <span class="chip">Linux / Terminal</span>
+          <span class="chip">Git / GitHub</span>
+          <span class="chip">Estructuras de Datos</span>
+          <span class="chip">Redes básicas</span>
+        </div>
+      </section>
+
+      <section id="proyectos" class="tarjeta-seccion">
+        <h2>Proyectos Destacados</h2>
+
+        <div class="fila-proyectos">
+          <article class="tarjeta-proyecto">
+            <h3>Monitor de Temperatura con Arduino</h3>
+            <p>
+              Circuito con sensor que mide la temperatura del cuarto y manda los
+              datos a la computadora para guardarlos en una tabla cada cinco
+              minutos.
+            </p>
+            <span class="tag-proyecto">C / Electrónica</span>
+          </article>
+
+          <article class="tarjeta-proyecto">
+            <h3>Juego de Memoria en Consola</h3>
+            <p>
+              Juego de parejas hecho en C para la clase de programación, con
+              niveles de dificultad y un marcador que se guarda en un archivo
+              de texto.
+            </p>
+            <span class="tag-proyecto">C / Archivos</span>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Facultad de Ingeniería Mecánica y Eléctrica, Ingeniería en Computación
+        Inteligente
+      </p>
+      <p>Perfil Profesional con CSS Flexbox</p>
+    </footer>
+  </body>
+</html>
